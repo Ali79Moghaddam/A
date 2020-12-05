@@ -1,0 +1,131 @@
+
+
+/* .students_table td, #students_table th {
+    border: 1px solid #dddddd;
+    text-align: right;
+    padding: 8px;
+    width: auto;
+} */
+
+.students_table {
+    direction: center;
+    text-align: right;
+}
+
+.students_table td {
+    direction: center;
+    text-align: right;
+}
+
+.students_table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.table_profile_pic {
+    width: 2%;
+}
+
+.table_name {
+    width: 20%;
+}
+
+.table_report {
+    width: 10%;
+}
+
+
+
+.reports_table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.reports_table {
+    direction: rtl;
+}
+
+.reports_table tr:nth-child(even){background-color: #f2f2f2;}
+
+.reports_table tr:hover {background-color: #ddd;}
+
+.reports_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: right;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.reports_table td {
+    text-align: right;
+}
+
+#feedback {
+    text-align: right;
+}
+
+
+.select {
+    width: 8em;
+    height: 2em;
+    line-height: 3;
+    background: rgba(10%, 10%, 10%, 0.9);
+    overflow: hidden;
+    border-radius: .25em;
+    flex: 1;
+    padding: 0 .5em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.select:hover {
+    background: rgba(10%, 10%, 10%, 0.8);
+}
+
+/* Arrow */
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
+
+/* Transition */
+.select:hover::after {
+    color: #f39c12;
+}
+
+.text_box {
+    background: rgba(10%, 10%, 10%, 0.9);
+    border-radius: .25em;
+    line-height: 3;
+    overflow: hidden;
+    padding: 0 .5em;
+    color: white;
+    width: 15em;
+    height: 2em;
+}
+
+.text_box:hover {
+    background: rgba(10%, 10%, 10%, 0.8);
+}
+
+.btn_report {
+    border: none;
+    background-color: rgba(10%, 10%, 10%, 0.9);
+    border-radius: .25em;
+    color: white;
+    height: 30px;
+}
+
+.btn_report:hover {
+    background-color: rgba(10%, 10%, 10%, 0.8);
+}
